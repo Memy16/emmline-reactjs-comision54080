@@ -1,0 +1,45 @@
+[
+    {
+        "name": "Remera BTS",
+        "id": 1,
+        "category": "ropa",
+        "detail": "lorem15",
+        "img": "https://i.ibb.co/MhSZfGk/235700e7ba20820c4871360619d12c13.png"
+    },
+    {
+        "name": "PROOF - BTS",
+        "id": 2,
+        "category": "albums",
+        "detail": "lorem15",
+        "img": "https://i.ibb.co/chfWJCM/6118fdba65161fa21b3c4dad56d43f95.png" 
+    },
+    {
+        "name": "The Album - BLACKPINK",
+        "id": 3,
+        "category": "albums",
+        "detail": "lorem15",
+        "img": "https://i.ibb.co/z72y7GK/Polish-20240313-223607520.jpg"
+    },
+    {
+        "name": "Remera Mi Feliz Matrimonio",
+        "id": 4,
+        "category": "ropa",
+        "detail": "lorem15",
+        "img": "https://i.ibb.co/X7QKyJZ/ssrco-slim-fit-t-shirt-flatlay-fafafa-ca443f4786-front-wide-portrait-750x1000-bg-f8f8f8.jpg"
+    },
+    {
+        "name": "Billetera Suzume",
+        "id": 5,
+        "category": "accesorios",
+        "detail": "lorem15",
+        "img": "https://i.ibb.co/hBG2wYy/productos34-8489.jpg"
+    },
+    
+    {
+        "name": "Llavero Blackpink",
+        "id": 6,
+        "category": "accesorios",
+        "detail": "lorem15",
+        "img": "https://i.ibb.co/S7Jrppb/Polish-20240313-223421385.jpg"
+    }
+]
