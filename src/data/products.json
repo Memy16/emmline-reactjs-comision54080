@@ -1,16 +1,16 @@
 [
     {
-        "name": "Remera BTS",
+        "name": "Camiseta Proof - BTS",
         "id": 1,
         "category": "ropa",
-        "detail": "lorem15",
+        "detail": "Este producto es una camiseta negra con un logotipo en el pecho. El diseño del logotipo es el del álbum Proof de BTS. Esta camiseta es perfecta para los fanáticos de BTS que deseen lucir su apoyo al grupo de una manera elegante y discreta. Está confeccionada con materiales de alta calidad que garantizan comodidad y durabilidad. Ideal para combinar con cualquier tipo de pantalón o falda, esta camiseta es una excelente opción para lucir un estilo moderno y sofisticado.",
         "img": "https://i.ibb.co/MhSZfGk/235700e7ba20820c4871360619d12c13.png"
     },
     {
         "name": "PROOF - BTS",
         "id": 2,
         "category": "albums",
-        "detail": "lorem15",
+        "detail": "BTS está de regreso con un nuevo lanzamiento de antología titulado Proof. Este nuevo álbum contiene las crónicas de BTS desde su debut en 2013 y cómo han allanado el camino con su propia sangre, sudor y lágrimas. El contenido de Proof (edición estándar) incluye 3 CD que incluyen tres pistas completamente nuevas, 4 folletos (The Art of Proof, fotografía, epílogo y letra), juego de tarjetas fotográficas (7 en total), tarjeta fotográfica (al azar 1 de 8), postal (al azar 1 de 8) y póster de edición limitada. Dimensiones: 190 x L 252 x H 60 (mm).",
         "img": "https://i.ibb.co/chfWJCM/6118fdba65161fa21b3c4dad56d43f95.png" 
     },
     {
@@ -24,22 +24,118 @@
         "name": "Remera Mi Feliz Matrimonio",
         "id": 4,
         "category": "ropa",
-        "detail": "lorem15",
+        "detail": "Con un diseño único y llamativo, esta prenda es perfecta para los fanáticos de la animación japonesa que desean lucir un estilo original y moderno.",
         "img": "https://i.ibb.co/X7QKyJZ/ssrco-slim-fit-t-shirt-flatlay-fafafa-ca443f4786-front-wide-portrait-750x1000-bg-f8f8f8.jpg"
     },
     {
         "name": "Billetera Suzume",
         "id": 5,
         "category": "accesorios",
-        "detail": "lorem15",
+        "detail": "Esta billetera de la película de anime Suzume presenta dos imágenes de dos personajes principales de la historia. Confeccionada con materiales de alta calidad, esta billetera es perfecta para los fanáticos del anime que desean llevar consigo un pedazo de su película favorita a donde quiera que vayan. Con un diseño elegante y funcional, esta billetera es ideal para almacenar tus tarjetas, dinero en efectivo y otros objetos pequeños de forma segura y organizada.",
         "img": "https://i.ibb.co/hBG2wYy/productos34-8489.jpg"
     },
     
     {
-        "name": "Llavero Blackpink",
+        "name": "Llavero The Album - BLACKPINK",
         "id": 6,
         "category": "accesorios",
-        "detail": "lorem15",
+        "detail": "Este llavero de The Album de BLACKPINK es el accesorio perfecto para los fanáticos del grupo. Con un diseño elegante y llamativo, cuenta con una corona en el centro que le da un toque único. Fabricado con materiales de alta calidad, este llavero es duradero y resistente. Además de ser un elemento decorativo, también es funcional, ya que te permite llevar tus llaves de forma segura y organizada. Añade un toque de estilo a tu día a día con este llavero con corona de BLACKPINK.",
         "img": "https://i.ibb.co/S7Jrppb/Polish-20240313-223421385.jpg"
+    },
+    {
+        "name": "Remera The Album - BLACKPINK",
+        "id": 7,
+        "category": "ropa",
+        "detail": "Esta remera gris con letras rosadas es el complemento perfecto para cualquier fan de BLACKPINK. Con un diseño simple pero llamativo, esta prenda es ideal para lucir tu amor por el grupo de K-pop. Perfecta para combinar con jeans o leggings, esta remera es una excelente adición a cualquier guardarropa de fanáticos de BLACKPINK.",
+        "img": "https://i.ibb.co/BP5QwgJ/Polish-20240313-223832001.jpg"
+    },
+    {
+        "name": "Pantalón Born Pink - BLACKPINK",
+        "id": 8,
+        "category": "ropa",
+        "detail": "Este pantalón blanco de sudadera con las palabras Born Pink, es el complemento perfecto para los fanáticos del álbum Born Pink de BLACKPINK. Confeccionado con materiales de alta calidad, este pantalón ofrece comodidad y estilo. El diseño elegante y moderno combina a la perfección con cualquier atuendo casual.",
+        "img": "https://i.ibb.co/mNZm8kF/Polish-20240313-223118437.jpg"
+    },
+    {
+        "name": "Buzo de BLACKPINK",
+        "id": 9,
+        "category": "ropa",
+        "detail": "Este buzo de manga larga de BLACKPINK es perfecto para los fanáticos de la banda. Con un diseño en color negro, este buzo es una prenda moderna y llamativa. Fabricado con materiales de alta calidad, es cómodo y duradero. Ideal para lucir un estilo urbano y mostrar tu apoyo a BLACKPINK.",
+        "img": "https://i.ibb.co/DY2Mydk/fotor-1710379687244.jpg"
+    },
+    {
+        "name": "Llavero de Suzume",
+        "id": 10,
+        "category": "accesorios",
+        "detail": "",
+        "img": "https://i.ibb.co/jkvWjsH/b0967b4b-9e12-43a6-a61c-998ec376ff17.webp"
+    },
+    {
+        "name": "Buzo de Your Name",
+        "id": 11,
+        "category": "ropa",
+        "detail": "Este buzo de manga larga de la película de anime Your Name, es perfecto para los amantes del anime y la moda. Confeccionado con materiales de alta calidad, te mantendrá abrigado y cómodo durante todo el día. Añade un toque de estilo a tu guardarropa con esta prenda única y significativa.",
+        "img": "https://i.ibb.co/wsqSWWC/Sd25d971e42254d708498e3db4b2b6a327.jpg"
+    },
+    {
+        "name": "Mochila Mario Bross",
+        "id": 12,
+        "category": "accesorios",
+        "detail": "Esta mochila de estrella del videojuego Mario Bros es el accesorio perfecto para los fanáticos de este icónico personaje de los videojuegos. Con un diseño llamativo y colorido, esta mochila es ideal para llevar tus pertenencias de forma segura y con estilo. Fabricada con materiales de alta calidad, esta mochila es resistente y duradera, perfecta para el uso diario.",
+        "img": "https://i.ibb.co/M6D1BFy/productos34-8558.jpg"
+    },
+    {
+        "name": "Set llaveros Tiny Tan - BTS",
+        "id": 13,
+        "category": "accesorios",
+        "detail": "Este conjunto de llaveros de BTS es perfecto para los fanáticos de Tiny Tan y el concepto Dynamite. Cada llavero presenta a los adorables personajes de Tiny Tan vestidos con atuendos icónicos de BTS. Hechos con materiales de alta calidad, estos llaveros son duraderos y están diseñados para resistir el uso diario. Con este set, podrás llevar contigo un pedacito del mundo de BTS a donde quiera que vayas. Ideal para regalar o para coleccionar, este conjunto de llaveros es un imprescindible para cualquier ARMY.",
+        "img": "https://i.ibb.co/NxSGrvY/7ad7fb4f7832d6185e576b26f62646ab.jpg"
+    },
+    {
+        "name": "Pantalón In The Soop - BTS",
+        "id": 14,
+        "category": "ropa",
+        "detail": "Su diseño único y exclusivo presenta detalles inspirados en la naturaleza y la estética relajada de la serie In The Soop, lo que lo convierte en una pieza imprescindible para los fans de BTS. Ya sea para un día de relax en casa o para salir a la calle, este pantalón te hará lucir a la moda y con estilo.",
+        "img": "https://i.ibb.co/y5gcgcR/3ebe929170ed79aa79f087639ec21728.png"
+    },
+    {
+        "name": "Buzo de Suzume",
+        "id": 15,
+        "category": "ropa",
+        "detail": "Este buzo de manga larga de color rosa presenta una imagen del gato Daijin de la película de anime Suzume. El diseño único y llamativo lo convierte en una prenda ideal para lucir un estilo moderno y original.",
+        "img": "https://i.ibb.co/Kj0fjqN/il-570x-N-5264585830-agd9.jpg"
+    },{
+        "name": "Buzo de El Tiempo Contigo",
+        "id": 16,
+        "category": "ropa",
+        "detail": "Inspirado en la película de anime El tiempo contigo, este diseño único captura la esencia de la protagonista y su conexión con el clima. Confeccionado con materiales de alta calidad, este buzo es perfecto para los amantes del anime que desean lucir un estilo moderno y a la vez mostrar su pasión por esta película.",
+        "img": "https://i.ibb.co/K5B6Sp0/S4091020108344e609f5aa2434d62b16ff-jpg-640x640-Q90-jpg.webp"
+    },{
+        "name": "ARMY Bomb",
+        "id": 17,
+        "category": "albums",
+        "detail": "Presentamos el lightstick oficial de BTS ARMY Bomb versión 4, una edición especial que brilla intensamente durante los conciertos de BTS. Este accesorio esencial para cualquier fan de BTS cuenta con un diseño elegante y moderno que se ilumina en sincronía con la música, creando una experiencia inolvidable en cada concierto.",
+        "img": "https://i.ibb.co/3yPrtz6/c1a2d4dcbee5d141b3b583974e9c3dba.jpg"
+    },
+    {
+        "name": "Remera Layover - V",
+        "id": 18,
+        "category": "ropa",
+        "detail": "Lleva contigo el estilo y el talento de V de BTS con esta increíble remera blanca. Esta prenda es perfecta para los fanáticos de V y de la banda. Además, esta remera forma parte del primer álbum en solitario de V, Layover, y cuenta con la adorable foto de Yeontan. ¡Y eso no es todo! También recibirás una photocard de V de regalo.",
+        "img": "https://i.ibb.co/k8RDhpm/074cae1fac8290fa316a5eb5d3ed4934.png"
+    },
+    {
+        "name": "Remera Festa BTS",
+        "id": 19,
+        "category": "ropa",
+        "detail": "Celebra el décimo aniversario de BTS con esta increíble remera blanca Festa. Con un diseño moderno y elegante, esta remera es perfecta para mostrar tu amor por una de las bandas de K-pop más exitosa del mundo. Hecha con materiales de alta calidad, esta remera te brindará comodidad y estilo durante cualquier ocasión. ¡No te pierdas la oportunidad de lucir genial y apoyar a BTS con esta remera única!",
+        "img": "https://i.ibb.co/42xW7Zm/d6c838e706c8362f496d98343dfa3e85.png"
+    },
+    {
+        "name": "",
+        "id": 20,
+        "category": "",
+        "detail": "",
+        "img": ""
     }
 ]
