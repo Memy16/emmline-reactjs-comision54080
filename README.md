@@ -41,7 +41,3 @@ Para ejecutar localmente el proyecto, sigue estos pasos:
    ```
 
 ¡Gracias por visitar Emmline! 🌟
-
-```
-
-```
