@@ -1,141 +1,308 @@
 [
-    {
-        "name": "Camiseta Proof - BTS",
-        "id": 1,
-        "category": "ropa",
-        "detail": "Este producto es una camiseta negra con un logotipo en el pecho. El diseño del logotipo es el del álbum Proof de BTS. Esta camiseta es perfecta para los fanáticos de BTS que deseen lucir su apoyo al grupo de una manera elegante y discreta. Está confeccionada con materiales de alta calidad que garantizan comodidad y durabilidad. Ideal para combinar con cualquier tipo de pantalón o falda, esta camiseta es una excelente opción para lucir un estilo moderno y sofisticado.",
-        "img": "https://i.ibb.co/MhSZfGk/235700e7ba20820c4871360619d12c13.png"
-    },
-    {
-        "name": "PROOF - BTS",
-        "id": 2,
-        "category": "albums",
-        "detail": "BTS está de regreso con un nuevo lanzamiento de antología titulado Proof. Este nuevo álbum contiene las crónicas de BTS desde su debut en 2013 y cómo han allanado el camino con su propia sangre, sudor y lágrimas. El contenido de Proof (edición estándar) incluye 3 CD que incluyen tres pistas completamente nuevas, 4 folletos (The Art of Proof, fotografía, epílogo y letra), juego de tarjetas fotográficas (7 en total), tarjeta fotográfica (al azar 1 de 8), postal (al azar 1 de 8) y póster de edición limitada. Dimensiones: 190 x L 252 x H 60 (mm).",
-        "img": "https://i.ibb.co/chfWJCM/6118fdba65161fa21b3c4dad56d43f95.png" 
-    },
-    {
-        "name": "The Album - BLACKPINK",
-        "id": 3,
-        "category": "albums",
-        "detail": "lorem15",
-        "img": "https://i.ibb.co/z72y7GK/Polish-20240313-223607520.jpg"
-    },
-    {
-        "name": "Remera Mi Feliz Matrimonio",
-        "id": 4,
-        "category": "ropa",
-        "detail": "Con un diseño único y llamativo, esta prenda es perfecta para los fanáticos de la animación japonesa que desean lucir un estilo original y moderno.",
-        "img": "https://i.ibb.co/X7QKyJZ/ssrco-slim-fit-t-shirt-flatlay-fafafa-ca443f4786-front-wide-portrait-750x1000-bg-f8f8f8.jpg"
-    },
-    {
-        "name": "Billetera Suzume",
-        "id": 5,
-        "category": "accesorios",
-        "detail": "Esta billetera de la película de anime Suzume presenta dos imágenes de dos personajes principales de la historia. Confeccionada con materiales de alta calidad, esta billetera es perfecta para los fanáticos del anime que desean llevar consigo un pedazo de su película favorita a donde quiera que vayan. Con un diseño elegante y funcional, esta billetera es ideal para almacenar tus tarjetas, dinero en efectivo y otros objetos pequeños de forma segura y organizada.",
-        "img": "https://i.ibb.co/hBG2wYy/productos34-8489.jpg"
-    },
-    
-    {
-        "name": "Llavero The Album - BLACKPINK",
-        "id": 6,
-        "category": "accesorios",
-        "detail": "Este llavero de The Album de BLACKPINK es el accesorio perfecto para los fanáticos del grupo. Con un diseño elegante y llamativo, cuenta con una corona en el centro que le da un toque único. Fabricado con materiales de alta calidad, este llavero es duradero y resistente. Además de ser un elemento decorativo, también es funcional, ya que te permite llevar tus llaves de forma segura y organizada. Añade un toque de estilo a tu día a día con este llavero con corona de BLACKPINK.",
-        "img": "https://i.ibb.co/S7Jrppb/Polish-20240313-223421385.jpg"
-    },
-    {
-        "name": "Remera The Album - BLACKPINK",
-        "id": 7,
-        "category": "ropa",
-        "detail": "Esta remera gris con letras rosadas es el complemento perfecto para cualquier fan de BLACKPINK. Con un diseño simple pero llamativo, esta prenda es ideal para lucir tu amor por el grupo de K-pop. Perfecta para combinar con jeans o leggings, esta remera es una excelente adición a cualquier guardarropa de fanáticos de BLACKPINK.",
-        "img": "https://i.ibb.co/BP5QwgJ/Polish-20240313-223832001.jpg"
-    },
-    {
-        "name": "Pantalón Born Pink - BLACKPINK",
-        "id": 8,
-        "category": "ropa",
-        "detail": "Este pantalón blanco de sudadera con las palabras Born Pink, es el complemento perfecto para los fanáticos del álbum Born Pink de BLACKPINK. Confeccionado con materiales de alta calidad, este pantalón ofrece comodidad y estilo. El diseño elegante y moderno combina a la perfección con cualquier atuendo casual.",
-        "img": "https://i.ibb.co/mNZm8kF/Polish-20240313-223118437.jpg"
-    },
-    {
-        "name": "Buzo de BLACKPINK",
-        "id": 9,
-        "category": "ropa",
-        "detail": "Este buzo de manga larga de BLACKPINK es perfecto para los fanáticos de la banda. Con un diseño en color negro, este buzo es una prenda moderna y llamativa. Fabricado con materiales de alta calidad, es cómodo y duradero. Ideal para lucir un estilo urbano y mostrar tu apoyo a BLACKPINK.",
-        "img": "https://i.ibb.co/DY2Mydk/fotor-1710379687244.jpg"
-    },
-    {
-        "name": "Llavero de Suzume",
-        "id": 10,
-        "category": "accesorios",
-        "detail": "",
-        "img": "https://i.ibb.co/jkvWjsH/b0967b4b-9e12-43a6-a61c-998ec376ff17.webp"
-    },
-    {
-        "name": "Buzo de Your Name",
-        "id": 11,
-        "category": "ropa",
-        "detail": "Este buzo de manga larga de la película de anime Your Name, es perfecto para los amantes del anime y la moda. Confeccionado con materiales de alta calidad, te mantendrá abrigado y cómodo durante todo el día. Añade un toque de estilo a tu guardarropa con esta prenda única y significativa.",
-        "img": "https://i.ibb.co/wsqSWWC/Sd25d971e42254d708498e3db4b2b6a327.jpg"
-    },
-    {
-        "name": "Mochila Mario Bross",
-        "id": 12,
-        "category": "accesorios",
-        "detail": "Esta mochila de estrella del videojuego Mario Bros es el accesorio perfecto para los fanáticos de este icónico personaje de los videojuegos. Con un diseño llamativo y colorido, esta mochila es ideal para llevar tus pertenencias de forma segura y con estilo. Fabricada con materiales de alta calidad, esta mochila es resistente y duradera, perfecta para el uso diario.",
-        "img": "https://i.ibb.co/M6D1BFy/productos34-8558.jpg"
-    },
-    {
-        "name": "Set llaveros Tiny Tan - BTS",
-        "id": 13,
-        "category": "accesorios",
-        "detail": "Este conjunto de llaveros de BTS es perfecto para los fanáticos de Tiny Tan y el concepto Dynamite. Cada llavero presenta a los adorables personajes de Tiny Tan vestidos con atuendos icónicos de BTS. Hechos con materiales de alta calidad, estos llaveros son duraderos y están diseñados para resistir el uso diario. Con este set, podrás llevar contigo un pedacito del mundo de BTS a donde quiera que vayas. Ideal para regalar o para coleccionar, este conjunto de llaveros es un imprescindible para cualquier ARMY.",
-        "img": "https://i.ibb.co/NxSGrvY/7ad7fb4f7832d6185e576b26f62646ab.jpg"
-    },
-    {
-        "name": "Pantalón In The Soop - BTS",
-        "id": 14,
-        "category": "ropa",
-        "detail": "Su diseño único y exclusivo presenta detalles inspirados en la naturaleza y la estética relajada de la serie In The Soop, lo que lo convierte en una pieza imprescindible para los fans de BTS. Ya sea para un día de relax en casa o para salir a la calle, este pantalón te hará lucir a la moda y con estilo.",
-        "img": "https://i.ibb.co/y5gcgcR/3ebe929170ed79aa79f087639ec21728.png"
-    },
-    {
-        "name": "Buzo de Suzume",
-        "id": 15,
-        "category": "ropa",
-        "detail": "Este buzo de manga larga de color rosa presenta una imagen del gato Daijin de la película de anime Suzume. El diseño único y llamativo lo convierte en una prenda ideal para lucir un estilo moderno y original.",
-        "img": "https://i.ibb.co/Kj0fjqN/il-570x-N-5264585830-agd9.jpg"
-    },{
-        "name": "Buzo de El Tiempo Contigo",
-        "id": 16,
-        "category": "ropa",
-        "detail": "Inspirado en la película de anime El tiempo contigo, este diseño único captura la esencia de la protagonista y su conexión con el clima. Confeccionado con materiales de alta calidad, este buzo es perfecto para los amantes del anime que desean lucir un estilo moderno y a la vez mostrar su pasión por esta película.",
-        "img": "https://i.ibb.co/K5B6Sp0/S4091020108344e609f5aa2434d62b16ff-jpg-640x640-Q90-jpg.webp"
-    },{
-        "name": "ARMY Bomb",
-        "id": 17,
-        "category": "albums",
-        "detail": "Presentamos el lightstick oficial de BTS ARMY Bomb versión 4, una edición especial que brilla intensamente durante los conciertos de BTS. Este accesorio esencial para cualquier fan de BTS cuenta con un diseño elegante y moderno que se ilumina en sincronía con la música, creando una experiencia inolvidable en cada concierto.",
-        "img": "https://i.ibb.co/3yPrtz6/c1a2d4dcbee5d141b3b583974e9c3dba.jpg"
-    },
-    {
-        "name": "Remera Layover - V",
-        "id": 18,
-        "category": "ropa",
-        "detail": "Lleva contigo el estilo y el talento de V de BTS con esta increíble remera blanca. Esta prenda es perfecta para los fanáticos de V y de la banda. Además, esta remera forma parte del primer álbum en solitario de V, Layover, y cuenta con la adorable foto de Yeontan. ¡Y eso no es todo! También recibirás una photocard de V de regalo.",
-        "img": "https://i.ibb.co/k8RDhpm/074cae1fac8290fa316a5eb5d3ed4934.png"
-    },
-    {
-        "name": "Remera Festa BTS",
-        "id": 19,
-        "category": "ropa",
-        "detail": "Celebra el décimo aniversario de BTS con esta increíble remera blanca Festa. Con un diseño moderno y elegante, esta remera es perfecta para mostrar tu amor por una de las bandas de K-pop más exitosa del mundo. Hecha con materiales de alta calidad, esta remera te brindará comodidad y estilo durante cualquier ocasión. ¡No te pierdas la oportunidad de lucir genial y apoyar a BTS con esta remera única!",
-        "img": "https://i.ibb.co/42xW7Zm/d6c838e706c8362f496d98343dfa3e85.png"
-    },
-    {
-        "name": "",
-        "id": 20,
-        "category": "",
-        "detail": "",
-        "img": ""
-    }
+  {
+    "name": "Camiseta Proof - BTS",
+    "price": 19,
+    "stock": 5,
+    "id": 1,
+    "category": "ropa",
+    "detail": "",
+    "img": "https://i.ibb.co/MhSZfGk/235700e7ba20820c4871360619d12c13.png"
+  },
+  {
+    "name": "PROOF - BTS",
+    "price": 45,
+    "stock": 5,
+    "id": 2,
+    "category": "albums",
+    "detail": "",
+    "img": "https://i.ibb.co/chfWJCM/6118fdba65161fa21b3c4dad56d43f95.png"
+  },
+  {
+    "name": "The Album - BLACKPINK",
+    "price": 40,
+    "stock": 5,
+    "id": 3,
+    "category": "albums",
+    "detail": "lorem15",
+    "img": "https://i.ibb.co/z72y7GK/Polish-20240313-223607520.jpg"
+  },
+  {
+    "name": "Camiseta Mi Feliz Matrimonio",
+    "price": 16,
+    "stock": 5,
+    "id": 4,
+    "category": "ropa",
+    "detail": "",
+    "img": "https://i.ibb.co/X7QKyJZ/ssrco-slim-fit-t-shirt-flatlay-fafafa-ca443f4786-front-wide-portrait-750x1000-bg-f8f8f8.jpg"
+  },
+  {
+    "name": "Billetera Suzume",
+    "price": 13,
+    "stock": 5,
+    "id": 5,
+    "category": "accesorios",
+    "detail": "",
+    "img": "https://i.ibb.co/hBG2wYy/productos34-8489.jpg"
+  },
+  {
+    "name": "Llavero The Album - BLACKPINK",
+    "price": 9,
+    "stock": 5,
+    "id": 6,
+    "category": "accesorios",
+    "detail": "",
+    "img": "https://i.ibb.co/S7Jrppb/Polish-20240313-223421385.jpg"
+  },
+  {
+    "name": "ARMY Bomb ver. 4",
+    "price": 31,
+    "stock": 5,
+    "id": 17,
+    "category": "lightstick",
+    "detail": "",
+    "img": "https://i.ibb.co/3yPrtz6/c1a2d4dcbee5d141b3b583974e9c3dba.jpg"
+  },
+  {
+    "name": "Camiseta The Album - BLACKPINK",
+    "price": 20,
+    "stock": 5,
+    "id": 7,
+    "category": "ropa",
+    "detail": "",
+    "img": "https://i.ibb.co/BP5QwgJ/Polish-20240313-223832001.jpg"
+  }, //
+  {
+    "name": "Pantalón Born Pink - BLACKPINK",
+    "price": 29,
+    "stock": 5,
+    "id": 8,
+    "category": "ropa",
+    "detail": "",
+    "img": "https://i.ibb.co/mNZm8kF/Polish-20240313-223118437.jpg"
+  },
+  {
+    "name": "Buzo BLACKPINK",
+    "price": 60,
+    "stock": 5,
+    "id": 9,
+    "category": "ropa",
+    "detail": "",
+    "img": "https://i.ibb.co/DY2Mydk/fotor-1710379687244.jpg"
+  },
+  {
+    "name": "Llavero Suzume",
+    "price": 19,
+    "stock": 5,
+    "id": 10,
+    "category": "accesorios",
+    "detail": "",
+    "img": "https://i.ibb.co/jkvWjsH/b0967b4b-9e12-43a6-a61c-998ec376ff17.webp"
+  },
+  {
+    "name": "Buzo Your Name",
+    "price": 19,
+    "stock": 5,
+    "id": 11,
+    "category": "ropa",
+    "detail": "",
+    "img": "https://i.ibb.co/wsqSWWC/Sd25d971e42254d708498e3db4b2b6a327.jpg"
+  },
+  {
+    "name": "Mochila Mario Bross",
+    "price": 20,
+    "stock": 5,
+    "id": 12,
+    "category": "accesorios",
+    "detail": "",
+    "img": "https://i.ibb.co/M6D1BFy/productos34-8558.jpg"
+  },
+  {
+    "name": "Set llaveros Tiny Tan - BTS",
+    "price": 26,
+    "stock": 5,
+    "id": 13,
+    "category": "accesorios",
+    "detail": "",
+    "img": "https://i.ibb.co/NxSGrvY/7ad7fb4f7832d6185e576b26f62646ab.jpg"
+  },
+  {
+    "name": "Pantalón In The Soop - BTS",
+    "price": 72,
+    "stock": 5,
+    "id": 14,
+    "category": "ropa",
+    "detail": "",
+    "img": "https://i.ibb.co/y5gcgcR/3ebe929170ed79aa79f087639ec21728.png"
+  },
+  {
+    "name": "Buzo Suzume",
+    "price": 19,
+    "stock": 5,
+    "id": 15,
+    "category": "ropa",
+    "detail": "",
+    "img": "https://i.ibb.co/Kj0fjqN/il-570x-N-5264585830-agd9.jpg"
+  },
+  {
+    "name": "Buzo El Tiempo Contigo",
+    "price": 19,
+    "stock": 5,
+    "id": 16,
+    "category": "ropa",
+    "detail": "",
+    "img": "https://i.ibb.co/K5B6Sp0/S4091020108344e609f5aa2434d62b16ff-jpg-640x640-Q90-jpg.webp"
+  },
+  {
+    "name": "Camiseta Layover - V",
+    "price": 39,
+    "stock": 5,
+    "id": 18,
+    "category": "ropa",
+    "detail": "",
+    "img": "https://i.ibb.co/k8RDhpm/074cae1fac8290fa316a5eb5d3ed4934.png"
+  },
+  {
+    "name": "Camiseta Festa BTS",
+    "price": 40,
+    "stock": 5,
+    "id": 19,
+    "category": "ropa",
+    "detail": "",
+    "img": "https://i.ibb.co/42xW7Zm/d6c838e706c8362f496d98343dfa3e85.png"
+  },
+  {
+    "name": "Antifaz de noche BT21",
+    "price": 12,
+    "stock": 5,
+    "id": 20,
+    "category": "accesorios",
+    "detail": "",
+    "img": "https://i.ibb.co/wWVsmkY/178b22983d6993b1b7e64cd5e03d5b7b.jpg"
+  },
+  {
+    "name": "Remera Yet to Come - BTS",
+    "price": 25,
+    "stock": 5,
+    "id": 21,
+    "category": "ropa",
+    "detail": "",
+    "img": "https://i.ibb.co/pP0vfxn/162ce7c20b5fc255778a64385073644a.jpg"
+  },
+  {
+    "name": "Buzo Layover - V",
+    "price": 36,
+    "stock": 5,
+    "id": 22,
+    "category": "ropa",
+    "detail": "",
+    "img": "https://i.ibb.co/BGqdnbF/0f49c24880cad9ea4b1329302d550aaa.jpg"
+  },
+  {
+    "name": "Buzo SKZOO - StrayKids",
+    "price": 29,
+    "stock": 5,
+    "id": 23,
+    "category": "ropa",
+    "detail": "",
+    "img": "https://i.ibb.co/DgT3WtX/1cec63ccd6134ad320dad38493a95889.jpg"
+  },
+  {
+    "name": "Buzo Spy Family - Anya",
+    "price": 18,
+    "stock": 5,
+    "id": 24,
+    "category": "ropa",
+    "detail": "",
+    "img": "https://i.ibb.co/PWVvx6z/0e8331d88228f1023817491a9132d075.jpg"
+  },
+  {
+    "name": "TXT Lightstick",
+    "price": 25,
+    "stock": 5,
+    "id": 25,
+    "category": "lightstick",
+    "detail": "",
+    "img": "https://i.ibb.co/c24YDrV/8fd18ebd4ac6d52c00622ad63d9cc768.jpg"
+  },
+  {
+    "name": "BLINK Lightstick ver. 1",
+    "price": 27,
+    "stock": 5,
+    "id": 26,
+    "category": "lightstick",
+    "detail": "",
+    "img": "https://i.ibb.co/gRPgdgt/8e663bbf51f42b2e2131f0a6dc9bf88b.jpg"
+  },
+  {
+    "name": "ENGENE Bong",
+    "price": 31,
+    "stock": 5,
+    "id": 27,
+    "category": "lightstick",
+    "detail": "",
+    "img": "https://i.ibb.co/Z14wXnP/72001203524159355ed11390081fb326.jpg"
+  },
+  {
+    "name": "Candybong Infinity",
+    "price": 30,
+    "stock": 5,
+    "id": 28,
+    "category": "lightstick",
+    "detail": "",
+    "img": "https://i.ibb.co/JRnRx0r/41b2888e6c569b718c6dfae56a8eccbe.jpg"
+  },
+  {
+    "name": "Caratbong",
+    "price": 40,
+    "stock": 5,
+    "id": 29,
+    "category": "lightstick",
+    "detail": "",
+    "img": "https://i.ibb.co/PmkVWDw/85df297b124c729eabfbce0261f23d23.jpg"
+  },
+  {
+    "name": "Born Pink - BLACKPINK",
+    "price": 17,
+    "stock": 5,
+    "id": 30,
+    "category": "albums",
+    "detail": "",
+    "img": "https://i.ibb.co/KGWT2Mc/3be860c053dfb5a6114c55af63038b26.jpg"
+  },
+  {
+    "name": "Cuadernola BLACKPINK",
+    "price": 10,
+    "stock": 5,
+    "id": 31,
+    "category": "accesorios",
+    "detail": "",
+    "img": "https://i.ibb.co/cX1w4Zz/bdb77c1c89848979c32899b33603c9ce.jpg"
+  },
+  {
+    "name": "BLINK Lightstick ver. 2",
+    "price": 31,
+    "stock": 5,
+    "id": 32,
+    "category": "lightstick",
+    "detail": "",
+    "img": "https://i.ibb.co/f1bv8gJ/507757013d303f9144c3420fa3aac5a2.jpg"
+  },
+  {
+    "name": "Scrunchies",
+    "price": 20,
+    "stock": 5,
+    "id": 33,
+    "category": "accesorios",
+    "detail": "",
+    "img": "https://i.ibb.co/vkNGpjk/042c97c9305a68ecfab74b42e5c3c5bb.jpg"
+  },
+  {
+    "name": "Microfono BLACKPINK",
+    "price": 15,
+    "stock": 5,
+    "id": 34,
+    "category": "accesorios",
+    "detail": "",
+    "img": "https://i.ibb.co/Xkqf69V/40971b275a0c613bed0392a51abf3b17.jpg"
+  }
 ]
