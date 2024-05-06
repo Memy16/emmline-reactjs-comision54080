@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import { useContext } from "react";
 
 import { ItemCount } from "./ItemCount";
-import { CartContext } from "./contexts/CartContext.jsx";
+import { CartContext } from "../contexts/CartContext.jsx";
 
 export const ItemDetail = ({ product }) => {
   const { addItem } = useContext(CartContext);
