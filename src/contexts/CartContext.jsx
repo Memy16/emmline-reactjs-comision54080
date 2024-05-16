@@ -14,7 +14,6 @@ export const Provider = ({ children }) => {
 
   const addItem = (item, quantity) => {
     const isExists = items.some((i) => i.id === item.id);
-
     if (isExists) {
       const updateItems = items.map((i) => {
         if (i.id === item.id) {
@@ -31,6 +30,7 @@ export const Provider = ({ children }) => {
       setItems([...items, { item, quantity }]);
     }
   };
+  console.log(items);
 
   return (
     <CartContext.Provider value={{ addItem, clear, items, removeItem }}>

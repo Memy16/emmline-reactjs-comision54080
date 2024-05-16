@@ -11,9 +11,9 @@ export const CartWidget = () => {
   const total = items.reduce((acc, elem) => acc + elem.quantity, 0);
 
   return (
-    <div id="cart-widget">
+    <Link to="/cart">
       <img src={cart} alt="Carrito de Compras" width={60} />
-      <span>5</span>
-    </div>
+      <span>{total}</span>
+    </Link>
   );
 };

@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import { useContext } from "react";
 
 import { ItemCount } from "./ItemCount";
-import { CartContext } from "../contexts/CartContext.jsx";
+import { CartContext } from "../contexts/CartContext";
 
 export const ItemDetail = ({ product }) => {
   const { addItem } = useContext(CartContext);
@@ -15,8 +15,8 @@ export const ItemDetail = ({ product }) => {
       <h2>{product.title}</h2>
       <img src={product.image} alt={product.title} />
       <p>{product.description}</p>
-      <div>{"Stock ${product.stock}"}</div>
-      <div>{"Precio ${product.price}"}</div>
+      <div>Stock: {product.stock}</div>
+      <div>Precio: {product.price}</div>
       <ItemCount stock={product.stock} onAdd={add} />
     </Container>
   );
