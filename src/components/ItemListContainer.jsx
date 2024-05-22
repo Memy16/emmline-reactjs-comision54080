@@ -1,20 +1,18 @@
-import { useEffect, useState } from "react";
-
-import Container from "react-bootstrap/Container";
+import { Container } from "react-bootstrap";
+import { useState, useEffect } from "react";
 import { ItemList } from "./ItemList";
 import { useParams } from "react-router-dom";
 
 import {
   getFirestore,
-  getDocs,
   collection,
+  getDocs,
   query,
   where,
 } from "firebase/firestore";
 
 export const ItemListContainer = () => {
   const [items, setItems] = useState([]);
-
   const { id } = useParams();
 
   useEffect(() => {
@@ -30,17 +28,17 @@ export const ItemListContainer = () => {
       );
     }
     getDocs(refCollection).then((snapshot) => {
-      setProducts(
-        snapshot.docs.map((doc) => {
-          return { id: doc.id, ...doc.data() };
-        })
-      );
+      const itemsData = snapshot.docs.map((doc) => ({
+        id: doc.id,
+        ...doc.data(),
+      }));
+      setItems(itemsData);
     });
   }, [id]);
 
   return (
     <Container className="mt-4">
-      <ItemList products={products} />
+      <ItemList items={items} />
     </Container>
   );
 };

@@ -23,11 +23,10 @@ export const Checkout = () => {
           price,
         })),
         total,
-        date: new Date().tolSOString(),
+        date: new Date().toISOString(),
       });
-      setTimeout(2000);
+      setTimeout(() => setLoading(false), 2000);
 
-      setLoading(false);
       setOrderld(newOrderRef.id);
       clearCart();
     } catch (error) {

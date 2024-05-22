@@ -1,8 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { useEffect } from "react";
-import { getFirestore, getDocs, collection } from "firebase/firestore";
-
 import "./App.css";
 import { ItemListContainer } from "./components/ItemListContainer";
 import { ItemDetailContainer } from "./components/ItemDetailContainer";
@@ -15,8 +12,8 @@ import { Checkout } from "./components/Checkout";
 
 function App() {
   return (
-    <Provider>
-      <BrowserRouter>
+    <BrowserRouter>
+      <Provider>
         <NavBar />
         <Routes>
           <Route path="/" element={<ItemListContainer />} />
@@ -27,8 +24,8 @@ function App() {
           <Route path="*" element={<Error404 />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
-    </Provider>
+      </Provider>
+    </BrowserRouter>
   );
 }
 export default App;

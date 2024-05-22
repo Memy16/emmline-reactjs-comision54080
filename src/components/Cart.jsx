@@ -1,10 +1,12 @@
-import { useEffect, useContext } from "react";
+// Cart.jsx
+import { useContext, useEffect } from "react";
 import { CartContext } from "../contexts/CartContext";
 import { Link } from "react-router-dom";
 import { CartItem } from "./CartItem";
 
 export const Cart = () => {
-  const { cart, clearCart, total, getTotal } = useContext(CartContext);
+  const { cart, clearCart, getTotal, total } = useContext(CartContext);
+
   useEffect(() => {
     getTotal();
   }, [cart, getTotal]);
@@ -20,13 +22,12 @@ export const Cart = () => {
         </>
       ) : (
         <>
-          {cart.map((p) => (
-            <CartItem key={p.id} {...p} />
+          {cart.map((p, index) => (
+            <CartItem key={index} {...p} />
           ))}
-          <h4>Subtotal: ${total()}</h4>
-          <h3>Total: {total()}</h3>
+          <h4>Total: ${total}</h4>
           <div className="buttonsCart">
-            <button className="buttonClearCart" onClick={() => clearCart()}>
+            <button className="buttonClearCart" onClick={clearCart}>
               Vaciar carrito
             </button>
             <Link to={"/Checkout"}>
@@ -38,19 +39,3 @@ export const Cart = () => {
     </div>
   );
 };
-
-/*
-      {items?.length > 0 && (
-        <form>
-          <label>Nombre</label>
-          <input type="text"></input>
-          <label>Tel</label>
-          <input type="number"></input>
-          <label>E-mail</label>
-          <input type="email"></input>
-          <input type="button" value="Enviar" />
-        </form>
-      )}
-    </div>
-  );
-};*/

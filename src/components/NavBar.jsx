@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
-
+import logo from "../assets/logoEmmline.png";
 import { CartWidget } from "./CartWidget";
 
 export const NavBar = () => {
@@ -10,12 +10,7 @@ export const NavBar = () => {
     <Navbar bg="light" data-bs-theme="light">
       <Container>
         <Navbar.Brand to="/" as={NavLink}>
-          Emmline
-          <img
-            className="logoEmmline"
-            src="../assets/logoEmmline.jpg"
-            alt="Logo de Emmline"
-          />
+          <img src={logo} alt="Logo de Emmline" width={80} />
         </Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link to="/category/ropa" as={NavLink}>

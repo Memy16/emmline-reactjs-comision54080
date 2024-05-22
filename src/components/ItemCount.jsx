@@ -1,15 +1,16 @@
-import { onChildAdded } from "firebase/database";
 import { useState } from "react";
 
 export const ItemCount = ({ onAdd, stock }) => {
   const [quantity, setQuantity] = useState(1);
 
   const handleDecrease = () => {
-    if (quantity > 1) setQuantity((prev) => -1);
+    if (quantity > 1) setQuantity((prev) => prev - 1);
   };
+
   const handleIncrease = () => {
-    if (stock > quantity) setQuantity((prev) => +1);
+    if (stock > quantity) setQuantity((prev) => prev + 1);
   };
+
   const handleAdd = () => {
     onAdd(quantity);
     setQuantity(1);
@@ -22,13 +23,15 @@ export const ItemCount = ({ onAdd, stock }) => {
       >
         -
       </div>
-      <input type="number" value={count} readOnly />
+
+      <input type="number" value={quantity} readOnly />
       <div
         style={{ padding: "0 15px", color: "pink", fontWeight: "bold" }}
         onClick={handleIncrease}
       >
         +
       </div>
+
       <button type="button" onClick={handleAdd}>
         Agregar al carrito
       </button>

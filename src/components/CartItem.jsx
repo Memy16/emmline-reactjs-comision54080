@@ -9,7 +9,7 @@ export const CartItem = ({ id, title, price, quantity }) => {
 
   return (
     <Container>
-      <Row className="cartItemList">
+      <Row className="cartItemList" key={id}>
         <Col>{title}</Col>
         <Col>{quantity}</Col>
         <Col>${price}</Col>
