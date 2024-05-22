@@ -13,13 +13,12 @@ import {
 } from "firebase/firestore";
 
 export const ItemListContainer = () => {
-  const [products, setProducts] = useState([]);
+  const [items, setItems] = useState([]);
 
   const { id } = useParams();
 
   useEffect(() => {
     const db = getFirestore();
-
     let refCollection;
 
     if (!id) {

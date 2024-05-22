@@ -9,7 +9,14 @@ export const NavBar = () => {
   return (
     <Navbar bg="light" data-bs-theme="light">
       <Container>
-        <Navbar.Brand to="/">Emmline</Navbar.Brand>
+        <Navbar.Brand to="/" as={NavLink}>
+          Emmline
+          <img
+            className="logoEmmline"
+            src="../assets/logoEmmline.jpg"
+            alt="Logo de Emmline"
+          />
+        </Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link to="/category/ropa" as={NavLink}>
             Ropa

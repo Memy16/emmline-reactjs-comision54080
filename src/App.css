@@ -1,6 +1,10 @@
-#cart-widget > span{
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#cart-widget > span {
   color: #faa4bb;
   padding-left: 2.1875rem;
   font-weight: bold;
 }
-
