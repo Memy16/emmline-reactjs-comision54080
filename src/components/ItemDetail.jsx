@@ -16,15 +16,15 @@ export const ItemDetail = ({ id, title, description, price, image, stock }) => {
   };
 
   return (
-    <Container className="mt-4">
+    <Container className="item-detail-container mt-4">
       <Row>
         <Col md={7}>
-          <Card>
+          <Card className="item-detail-image-card">
             <Card.Img src={image} alt={title} />
           </Card>
         </Col>
         <Col md={5}>
-          <Card>
+          <Card className="item-detail-info-card">
             <Card.Header>{title}</Card.Header>
             <Card.Body>
               <Card.Text>{description}</Card.Text>

@@ -1,4 +1,3 @@
-// Cart.jsx
 import { useContext, useEffect } from "react";
 import { CartContext } from "../contexts/CartContext";
 import { Link } from "react-router-dom";

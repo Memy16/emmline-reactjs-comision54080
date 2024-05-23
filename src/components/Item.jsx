@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export const Item = ({ item }) => (
-  <Card style={{ width: "18rem" }} className="d-inline-block m-2">
+  <Card className="card-item d-inline-block m-2" style={{ width: "18rem" }}>
     <Card.Img variant="top" height="300" src={item.image} />
     <Card.Body>
       <Card.Title>{item.title}</Card.Title>

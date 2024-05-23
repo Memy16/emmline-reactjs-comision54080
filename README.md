@@ -13,7 +13,7 @@ Emmline es una tienda en línea dedicada a los aficionados del Kpop y el anime. 
 
 ## Tecnologías utilizadas 🛠️
 
-- React JS para la interfaz de usuario.
+- React JS con Vite para la interfaz de usuario.
 - Firebase para la base de datos.
 - Bootstrap para el diseño.
 

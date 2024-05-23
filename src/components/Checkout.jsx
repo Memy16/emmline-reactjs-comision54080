@@ -7,24 +7,31 @@ import { Form, Spinner } from "react-bootstrap";
 export const Checkout = () => {
   const [loading, setLoading] = useState(false);
   const [orderld, setOrderld] = useState("");
+
   const { cart, total, clearCart } = useContext(CartContext);
 
   const createOrder = async ({ name, phone, email }) => {
+    if (!name || !phone || !email || cart.length === 0) {
+      console.error("Sus datos estan incompletos para crear la orden");
+      return;
+    }
+
     setLoading(true);
     try {
       const ordersRef = collection(db, "orders");
 
       const newOrderRef = await addDoc(ordersRef, {
         client: { name, phone, email },
-        items: cart.map(({ id, title, quantity, price }) => ({
-          id,
-          title,
+        items: cart.map(({ item, quantity }) => ({
+          id: item.id,
+          title: item.title,
           quantity,
-          price,
+          price: item.price,
         })),
         total,
         date: new Date().toISOString(),
       });
+
       setTimeout(() => setLoading(false), 2000);
 
       setOrderld(newOrderRef.id);
@@ -34,6 +41,7 @@ export const Checkout = () => {
       setLoading(false);
     }
   };
+
   return (
     <div className="checkoutSection">
       {loading && (
@@ -46,9 +54,7 @@ export const Checkout = () => {
       {orderld && (
         <div
           className="overlay d-flex flex-column"
-          onClick={() => {
-            setOrderld(null);
-          }}
+          onClick={() => setOrderld("")}
         >
           Order ID: {orderld} <p>¡Gracias por su compra!</p>
         </div>
@@ -100,9 +106,9 @@ export const Checkout = () => {
         </button>
       </Form>
       <div className="sectionCartFinal">
-        {cart.map(({ id, title, quantity }) => (
-          <div key={id} className="d-flex gap-3">
-            <p>{title}</p>
+        {cart.map(({ item, quantity }) => (
+          <div key={item.id} className="d-flex gap-3">
+            <p>{item.title}</p>
             <p>Cantidad: {quantity}</p>
           </div>
         ))}
